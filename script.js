@@ -23,9 +23,9 @@ function multiply(...a){
 }
 
 function divide(...a){
-    let x = 1;
+    let d = 1;
     for (let i = 0; i < a.length; i++){
-        x /= a[i];
+        d /= a[i];
     }
     return x;
 }
